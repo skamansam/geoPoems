@@ -1,0 +1,13 @@
+{
+    "name": "sam/geo-poems",
+    "description": "geocaching with poems!",
+    "type": "project",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Skaman Sam Tyler",
+            "email": "skamansam@gmail.com"
+        }
+    ],
+    "require": {}
+}
