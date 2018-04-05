@@ -1,0 +1,61 @@
+uSeeArt.jpg : 39.331183333333,-76.631827777778
+
+Free2.jpg : 39.280533333333,-76.593238888889
+Free.jpg : 39.280463888889,-76.5932
+
+War4.jpg : 39.323277777778,-76.618644444444
+War6.jpg : 39.323636111111,-76.619833333333
+War9.jpg : 39.324255555556,-76.619972222222
+uSeeWar.jpg : 39.320022222222,-76.627888888889
+War5.jpg : 39.323441666667,-76.619461111111
+War8.jpg : 39.324305555556,-76.619972222222
+War3.jpg : 39.323288888889,-76.618372222222
+War10.jpg : 39.324152777778,-76.619522222222
+War1.jpg : 39.323841666667,-76.617772222222
+War7.jpg : 39.324219444444,-76.620033333333
+War2.jpg : 39.323647222222,-76.617744444444
+
+
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  <your title>: <your name>
+  Site:
+  Twitter:
+  Location:
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software:
+
+
+
+                               -o/-
+                               +oo//-
+                              :ooo+//:
+                             -ooooo///-
+                             /oooooo//:
+                            :ooooooo+//-
+                           -+oooooooo///-
+           -://////////////+oooooooooo++////////////::
+            :+ooooooooooooooooooooooooooooooooooooo+:::-
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-
+                     -:+ooooooooooooooooo+:://////:--
+                       /ooooooooooooooooo+//////:-
+                      -ooooooooooooooooooo////-
+                      /ooooooooo+oooooooooo//:
+                     :ooooooo+/::/+oooooooo+//-
+                    -oooooo/::///////+oooooo///-
+                    /ooo+::://////:---:/+oooo//:
+                   -o+/::///////:-      -:/+o+//-
+                   :-:///////:-            -:/://
+                     -////:-                 --//:
+                       --                       -:

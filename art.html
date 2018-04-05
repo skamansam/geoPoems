@@ -1,0 +1,62 @@
+
+<div data-role="page" id="art" data-add-back-btn="true">
+  <div data-role="header">
+    <h1> Love is Art </h1>
+    <a href="/" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+  </div>
+
+  <div data-role="content" data-title="Love is Art" style="padding-left:2em;">
+    <div class="images">
+      
+      <div class='frame'>
+        <p>
+          Some say Love is Art,<br/>
+          And they may be right,<br/>
+          Dying of a broken heart<br/>
+          In the middle of night.
+        </p>
+        <p>
+          I think love is more grand,<br/>
+          Underestimated and undefined,<br/>
+          But one thing is plain,<br/>
+          It leaves no one in his right mind.
+        </p>
+        <a href="http://maps.google.com/maps?q=39.331183333333,-76.631827777778&iwloc=A" data-role='button'>Step 1: Navigate to this location</a><br/>
+        <!--<a href="geo: 39.331183333333,-76.631827777778" data-role='button'>Step 1: Navigate to this location</a><br/>-->
+        <a href='#' onclick='nextFrame("#art")' data-role='button'>Step 2: After arriving, Show the Guide</a>
+      </div>
+
+      <div class='frame'>
+        <img src="img/uSeeArt.jpg" alt="uSeeArt" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#art")' data-role='button'>Next</a>
+      </div>
+      <div class='frame'>
+        <p>What you buy,<br/>
+          Is a three dollar soda.<br/>
+          And just walk on past<br/>
+          But I see the love<br/>
+          Between you and me,<br/>
+          One that will last.
+        </p>
+        <a href='#' onclick='nextFrame("#art")' data-role='button'>See more...</a>
+      </div>
+      
+      <div class='frame'>
+        <img src="img/iSeeArt.jpg" alt="iSeeArt" style='width:90%;'/>
+        <a href="#free" data-role='button'>Navigate To Next</a>
+      </div>
+
+    </div><!-- /images war-->
+  </div><!-- /content war-->
+  
+  <div data-role="footer">
+  <h6 class='location'> No Location Available </h6>
+  </div>
+
+  <script>
+    $('#art .images .frame').hide();
+    $('#art .images .frame').first().show();
+    window.curFrame = 0;
+  </script>
+
+</div> <!-- /page war-->

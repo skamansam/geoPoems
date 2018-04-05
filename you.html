@@ -1,0 +1,104 @@
+
+<div data-role="page" id="war" data-add-back-btn="true">
+  <div data-role="header">
+    <h1> Love is War </h1>
+    <a href="/" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+  </div>
+
+  <div data-role="content" data-title="Love is War" style="padding-left:2em;">
+    <div class="images">
+      
+      <div class='frame'>
+        <p>
+          Some say Love is War,<br/>
+          But I prefer to think<br/>
+          This life is war<br/>
+          And Love is the brink.
+        </p>
+        <p>
+          With each battle,<br/>
+          Lost or won,<br/>
+          I come closer to you,<br/>
+          My one and only sun.
+        </p>
+        <a href="geo: 39.323841666667,-76.617772222222" data-role='button'>Step 1: Navigate to this location</a><br/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Step 2: After arriving, Show the Guide</a>
+      </div>
+
+      <div class='frame'>
+        <img src="img/War1.jpg" alt="War1" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      
+      <div class='frame'>
+        <img src="img/War2.jpg" alt="War2" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+
+      <div class='frame'>
+        <img src="img/War3.jpg" alt="War3" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      <div class='frame'>
+        <img src="img/War4.jpg" alt="War4" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      <div class='frame'>
+        <img src="img/War5.jpg" alt="War5" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      <div class='frame'>
+        <img src="img/War6.jpg" alt="War6" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      <div class='frame'>
+        <img src="img/War7.jpg" alt="War7" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      <div class='frame'>
+        <img src="img/War8.jpg" alt="War8" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+      <div class='frame'>
+        <img src="img/War9.jpg" alt="War9" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+
+      <div class='frame'>
+        <img src="img/War10.jpg" alt="War10" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next Image</a>
+      </div>
+
+
+      <div class='frame'>
+        <img src="img/uSeeWar.jpg" alt="uSeeWar" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>Next</a>
+      </div>
+      <div class='frame'>
+        <p>What you see,<br/>
+          Maybe just a tree.<br/>
+          What I see<br/>
+          Is much more to me...
+        </p>
+        <a href='#' onclick='nextFrame("#war")' data-role='button'>See more...</a>
+      </div>
+      
+      <div class='frame'>
+        <img src="img/iSeeWar.jpg" alt="iSeeWar" style='width:90%;'/>
+        <a href="#art" data-role='button'>Navigate To Next</a>
+      </div>
+
+    </div><!-- /images war-->
+  </div><!-- /content war-->
+  
+  <div data-role="footer">
+  <h6 class='location'> No Location Available </h6>
+  </div>
+
+  <script>
+    $('#war .images .frame').hide();
+    $('#war .images .frame').first().show();
+    window.curFrame = 0;
+  </script>
+
+</div> <!-- /page war-->

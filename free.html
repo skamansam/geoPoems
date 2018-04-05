@@ -1,0 +1,92 @@
+
+<div data-role="page" id="free" data-add-back-btn="true">
+  <div data-role="header">
+    <h1> Love is Free </h1>
+    <a href="/" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+  </div>
+
+  <div data-role="content" data-title="Love is Free" style="padding-left:2em;">
+    <div class="images">
+      
+      <div class='frame'>
+        <p>
+          Some say Love is Free,<br/>
+          One thing which none can buy.<br/>
+          Love is an ocean for me,<br/>
+          I will never be dry.
+        </p>
+        <p>
+          Your love has more value,<br/>
+          Than gold or water or life.<br/>
+          I will never be without you,<br/>
+          Because you are my wife.
+        </p>
+        <a href="http://maps.google.com/maps?q=39.280533333333,-76.593238888889&iwloc=A" data-role='button'>Step 1: Navigate to this location</a><br/>
+        <!--<a href="geo: 39.280533333333,-76.593238888889" data-role='button'>Step 1: Navigate to this location</a><br/>-->
+        <a href='#' onclick='nextFrame("#free")' data-role='button'>Step 2: After arriving, Show the Guide</a>
+      </div>
+
+      <div class='frame'>
+        <img src="img/Free1.jpg" alt="Free1" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#free")' data-role='button'>Next Image</a>
+      </div>
+      
+      <div class='frame'>
+        <img src="img/Free2.jpg" alt="Free2" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#free")' data-role='button'>Next Image</a>
+      </div>
+
+      <div class='frame'>
+        <img src="img/uSeeFree.jpg" alt="uSeeFree" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#free")' data-role='button'>Next</a>
+      </div>
+      <div class='frame'>
+        <p>A creature from the depths,<br/>
+          Of bottomless love.<br/>
+          Turn around and pause,<br/>
+          Look for the signs,<br/>
+          Look for the doves.
+        </p>
+        <a href='#' onclick='nextFrame("#free")' data-role='button'>See more...</a>
+      </div>
+      
+      <div class='frame'>
+        <img src="img/iSeeFree.jpg" alt="iSeeFree" style='width:90%;'/>
+        <a href='#' onclick='nextFrame("#free")' data-role='button'>See more...</a>
+      </div>
+      <div class='frame'>
+        <p>
+          Now you have come to the end,<br/>
+          Of a journey so wild,<br/>
+          But now we begin,<br/>
+          Our journey so mild.<br/>
+          A new life here,<br/>
+          With each other,<br/>
+          We have nothing to fear.
+        </p>
+        <p>
+          Now you are at the ocean,<br/>
+          You can do no harm.<br/>
+          Open the gift and buy yourself<br/>
+          Something to keep you warm.
+        </p>
+        <p style="font-weight:bold;">
+          I love you!<br/>
+          Happy Valentine's Day!
+        </p>
+      </div>
+
+    </div><!-- /images war-->
+  </div><!-- /content war-->
+  
+  <div data-role="footer">
+  <h6 class='location'> No Location Available </h6>
+  </div>
+
+  <script>
+    $('#free .images .frame').hide();
+    $('#free .images .frame').first().show();
+    window.curFrame = 0;
+  </script>
+
+</div> <!-- /page war-->
